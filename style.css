@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#3282b8, #bbe1fa);;
+}
+
+hr {
+    border-style: dotted;
+    border-color: #1b262c;
+    border-width: 10px;
+    border-bottom-style: none;
+    height: 0px;
+    width: 10%;
+}
+
+h2,h3,p,li,label{
+    color: #1b262c;
+}
+
+img{
+    border-radius: 100%;
+    border
+}
+
+img:hover{
+    opacity: 90%;
+}
+
+/*
+https://colorhunt.co/palette/167893
+*/
