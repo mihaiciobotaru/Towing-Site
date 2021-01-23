@@ -11,13 +11,13 @@ body {
 }
 
 hr {
-    margin-left: 150px;
+    margin-left: 190px;
     border-style: dotted;
     border-color: #1b262c;
     border-width: 10px;
     border-bottom-style: none;
     height: 0px;
-    width: 10%;
+    width: 120px;
 }
 
 h2,h3,p,li,label{
