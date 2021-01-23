@@ -21,6 +21,8 @@ hr {
 }
 
 h2,h3,p,li,label{
+    -webkit-text-stroke-width: 0.20px;
+    -webkit-text-stroke-color: black;
     color: #1b262c;
 }
 
@@ -35,3 +37,7 @@ img:hover{
 /*
 https://colorhunt.co/palette/167893
 */
+
+.contact{
+    margin-left: 70px;
+}
