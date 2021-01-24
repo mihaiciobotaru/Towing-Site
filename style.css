@@ -16,8 +16,10 @@ hr {
     border-color: #1b262c;
     border-width: 10px;
     border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
     height: 0px;
-    width: 120px;
+    width: 140px;
 }
 
 h2,h3,p,li,label{
