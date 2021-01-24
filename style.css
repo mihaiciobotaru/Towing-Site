@@ -30,6 +30,55 @@ img{
     border-radius: 100%;
 }
 
+a.imageLink{
+    display: inline-block;
+    height: 0px;
+}
+
+
+
+a.textLink{
+    outline: none;
+    padding: 1px 1px 0;
+    border-bottom: 1px;
+    text-decoration:underline #1b262c;
+}
+  
+  a:link.textLink {
+    color: #1b262c;
+  }
+  
+  a:visited.textLink {
+    color: #1b262c;
+  }
+  
+  a:hover.textLink {
+    border: 1px dashed;
+  }
+
+  a.buttonLink{
+    outline: none;
+    padding: 1px 3px 1px;
+    border-bottom: 1px;
+    text-decoration:none;
+    border:2px solid;
+    background-color: #3282b899;
+}
+  
+  a:link.buttonLink {
+    color: #1b262c;
+  }
+  
+  a:visited.buttonLink {
+    color: #1b262c;
+  }
+  
+  a:hover.buttonLink {
+    border: 2px dashed;
+    background-color: #3282b855;
+  }
+  
+
 img:hover{
     opacity: 90%;
 }
