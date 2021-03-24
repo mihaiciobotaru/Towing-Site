@@ -13,14 +13,9 @@ body {
 td.rightcolumn{
     padding-left: 150px;
 }
-td.projects1{
+td.projects{
     vertical-align: top;
     padding-right: 20px;
-    padding-bottom: 80px; 
-}
-td.projects2{
-  vertical-align: top;
-  padding-right: 20px;
 }
 p{
   width: 600px;
@@ -35,6 +30,55 @@ hr {
     border-right-style: none;
     height: 0px;
     width: 140px;
+}
+
+hr.large{
+  transform: translateX(16%);
+  width: 600px;
+}
+
+.horizontal_line{
+  padding: 100px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+
+  
+}
+.lines{
+  width: 90%;
+  height: 45px;
+  position: relative;
+}
+.lines::after,.lines::before{
+  content:'';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  /*background: #1b262c;*/
+  width: 47%;
+  top: 45%;
+  border: ;
+}
+.lines::after{
+  background-image: linear-gradient(to right ,#bbe1fa 10%,#3282b8 70% ,#1b262c 90%);
+  background-image: cross-fade();
+  left:0;
+}
+.lines::before{
+  background-image: linear-gradient(to right,#1b262c 10% ,#3282b8 30%,#bbe1fa 90%);
+  right: 0;
+}
+.circle{
+  height:40px;
+  width: 40px;
+  border :3px solid #1b262c;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin: auto; 
+  border-radius: 50%;
 }
 
 h2,h3,p,li,label{
@@ -129,8 +173,8 @@ img:hover{
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
     transform: translateX(200px) scale(0.1) translateY(9000px);
-    trans
-}
+    
+  }
 
 /*
 https://colorhunt.co/palette/167893
