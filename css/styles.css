@@ -2456,12 +2456,12 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #159a80;
-  border-color: #148f77;
+  border-color: white;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: white;
+  border-color: white;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2471,7 +2471,7 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
+  background-color: white;
   border-color: #12846e;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -4023,8 +4023,8 @@ input[type=button].btn-block {
   #logoNav{
     width: 70px;
   }
-
  }
+
 
 @media (min-width: 992px) { 
   .navbar-brand{
@@ -4762,7 +4762,7 @@ a.badge:hover, a.badge:focus {
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: white;
 }
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
@@ -6164,12 +6164,14 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #232323 !important;
+  border-color: #ffc326;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: transparent !important;
+  border-color: #ffc326;
 }
 
 .bg-secondary {
@@ -10339,3 +10341,34 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
+
+
+
+@media (max-width: 576px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+   transform: scale(1.1);
+  }
+
+  .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 768px) { 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+   transform: scale(1.2);
+  }
+
+  .carousel-indicators li{
+    width: 30px;
+    height: 30px;
+  }
+ }
+@media (max-width: 992px) {
+
+}
+@media (max-width: 1200px) {
+
+}
