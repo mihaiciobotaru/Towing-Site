@@ -10373,6 +10373,13 @@ form .row:first-child .floating-label-form-group {
 
 }
 
-nav .container{
-  left: 0;
+@media (max-width: 450px) {
+  #logoNav{
+    padding-left: 90px;
+    width: 150px;
+  }
+  a.navbar-brand{
+    padding-left: 20px;
+  }
 }
+
