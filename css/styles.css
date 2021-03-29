@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-@charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2020 Start Bootstrap
@@ -10380,6 +10379,11 @@ form .row:first-child .floating-label-form-group {
   }
   a.navbar-brand{
     padding-left: 20px;
+  }
+}
+@media (max-width: 383) {
+  #slides.carousel.slide{
+    top: 19%;
   }
 }
 
