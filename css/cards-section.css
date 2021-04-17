@@ -1,0 +1,235 @@
+:root{
+  --primary-black:#313839;
+  --primary-blue-dark:#2f4858;
+  --primary-white:#ffe9d0;
+  --primary-white:#e9e9e9;
+  --primary-orange:#ff962b;
+}
+.section-cards{
+  position: relative;
+  content: '';
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 400px 400px  400px  ;
+  grid-template-rows: minmax(30px, 400px ) minmax(390px, 400px ) ;
+  grid-template-areas: 
+    "card-1 card-2 card-3"
+    "card-4 card-5 card-6";
+  background-color: var(--primary-white );
+  justify-content: center;
+  padding-left: auto;
+  grid-column-gap: 70px;
+  grid-row-gap:60px;
+  padding-top: 70px;
+}
+
+.card{
+  border-radius: 48px;
+  background-image: linear-gradient(135deg, #ff503cde, #ff5b3bde, #ff653bde, #ff6e3bde, #ff773cde);  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: var(--primary-white);
+  padding: 10% 25px 10% 25px;
+  text-shadow: 2px 2px #2200005f
+}
+.card-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.card h1{
+  text-shadow: 2px 2px #220000df;
+  font-size: 30px;
+}
+
+.card img{
+  width: 170px;
+}
+
+.card h3{
+  font-size: 22px;
+}
+
+@media (max-width: 735px) {  
+  .section-cards{
+    height: 2550px;
+    grid-column-gap: 25px;
+    grid-row-gap:35px;
+    grid-template-columns: 300px;  
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+    grid-template-areas: 
+      "card-1" 
+      "card-2"
+      "card-3" 
+      "card-4"
+      "card-5" 
+      "card-6";
+    padding-top: 40px;
+  }
+  
+  .card{
+    padding: 15% 0px 5% 0px;
+  }
+  
+  .card h1{
+    font-size: 30px;
+    transform: scale(0.8);
+    margin: 0px -10px 0px -10px;
+  }
+  
+  .card h3{
+    font-size: 22px;
+    transform: scale(0.8);
+    margin: 0px -10px 0px -10px;
+  }
+
+  .card img{
+    width: 170px;
+    transform: scale(0.8);
+    margin-top:-20px;
+    margin-bottom:-40px;
+  }
+
+}
+
+@media (min-width:736px) and (max-width: 810px) {  
+  .section-cards{
+    height: 1350px;
+    grid-column-gap: 30px;
+    grid-row-gap:40px;
+    grid-template-columns: 300px 300px ;  
+    grid-template-rows: 30% 30% 30% ;
+    grid-template-areas: 
+      "card-1 card-2"
+      "card-3 card-4"
+      "card-5 card-6";
+    padding-top: 40px;
+  }
+  
+  .card{
+    padding: 10% 25px 10% 25px;
+  }
+  
+  .card h1{
+    font-size: 30px;
+    transform: scale(0.8);
+  }
+  
+  .card img{
+    width: 170px;
+    transform: scale(0.8);
+  }
+  
+  .card h3{
+    font-size: 22px;
+    transform: scale(0.8);
+  }
+  
+
+}
+
+@media (min-width:811px) and (max-width: 925px) {  
+  .section-cards{
+    height: 1500px;
+    grid-column-gap: 30px;
+    grid-row-gap:40px;
+    grid-template-columns: 360px 360px ;  
+    grid-template-rows: 30% 30% 30% ;
+    grid-template-areas: 
+      "card-1 card-2"
+      "card-3 card-4"
+      "card-5 card-6";
+    padding-top: 40px;
+  }
+  
+}
+
+@media (min-width : 926px) and (max-width: 1095px) {  
+  .section-cards{
+    height: 1500px;
+    grid-column-gap: 50px;
+    grid-row-gap:60px;
+    grid-template-columns: 400px 400px ;  
+    grid-template-rows: 30% 30% 30% ;
+    grid-template-areas: 
+      "card-1 card-2"
+      "card-3 card-4"
+      "card-5 card-6";
+    padding-top: 40px;
+  }
+  
+  .card{
+    padding: 10% 25px 10% 25px;
+  }
+  
+  .card h1{
+    font-size: 30px;
+  }
+  
+  .card img{
+    width: 170px;
+  }
+  
+  .card h3{
+    font-size: 22px;
+  }
+  
+}
+
+@media (min-width: 1094px) and (max-width: 1255px) {  
+  .section-cards{
+    grid-column-gap: 30px;
+    grid-row-gap:40px;
+    grid-template-columns: 330px 330px  330px  ;  
+    grid-template-rows: 40% 40% ;
+    grid-template-areas: 
+      "card-1 card-2 card-3"
+      "card-4 card-5 card-6";
+    padding-top: 100px;
+  }
+  
+  .card{
+    padding: 10% 25px 10% 25px;
+  }
+  
+  .card h1{
+    font-size: 30px;
+    transform: scale(0.8);
+  }
+  
+  .card img{
+    width: 170px;
+    transform: scale(0.8);
+  }
+  
+  .card h3{
+    font-size: 22px;
+    transform: scale(0.8);
+  }
+  
+
+}
+
+@media (min-width:1256px) and (max-width: 1300px) {  
+  .section-cards{
+    grid-column-gap: 30px;
+    grid-row-gap:40px;
+    grid-template-columns: 360px 360px  360px  ;  
+  }
+}
+
+@media (min-width:1301px) and (max-width: 1400px) {  
+  .section-cards{
+    grid-column-gap: 40px;
+    grid-row-gap:50px;
+    grid-template-columns: 380px 380px  380px  ;
+  }
+
+}

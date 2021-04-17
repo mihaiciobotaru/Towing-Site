@@ -2,70 +2,242 @@
 <html>
     <head>
 
-        <title>Ciobotaru Mihai</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="shortcut icon" href="./images/icon.png" type="image/png">
+        <title>Tractari 24/7</title>
+        <link rel="stylesheet" href="./css/style_general.css">
+        <link rel="stylesheet" href="./css/style_home.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/subheader.css">
+        <link rel="stylesheet" href="./css/tarife.css">
+        <link rel="stylesheet" href="./css/cards-section.css">
+        <link rel="stylesheet" href="./css/middle-section.css">
+        <link rel="stylesheet" href="./css/orase.css">
+        <link rel="shortcut icon" href="./assets/icon.png" type="image/png">
         <meta name="description" content="Mihai Ciobotaru">
+        <script src="https://kit.fontawesome.com/4b1edc8b32.js" crossorigin="anonymous"></script>
     
     </head>
 
     <body>
-        <table cellspacing=12>
-            <tr>
-                <td><a href="https://www.facebook.com/mihai.ciobotaru.52/" target="_blank" class="imageLink"><img src="./images/Mihai.png" alt="" width="275" height="275"></a></td>
-                <td><h2 class="text">Mihai Ciobotaru</h2>
-                <p><em>Hi,&nbsp</em>I`m <strong>Ciobotaru Mihai</strong>.</p>
-                <p><strong>Web</strong> <em>and</em> &nbsp<strong>Software developer</strong>.</p>
-                
-                </td>
-            </tr>
-        </table>
+      <div class ="nav">
+        <div class="logo">
+          <img src="./assets/helloillustration.svg" alt="">
+          <a href="./index.html"><h1> <span>T</span>ractari <span>N</span>on-<span>S</span>top <span>F</span>ocsani</a>
+        </div>
+        <div class="togglerBtn"><div class="toggler"></div></div>
 
-        <hr>
-
-        <table cellspacing=12>
-            <td>
-                <h3>&nbsp&nbsp&nbsp&nbspTechinal skills:</h3>
-        
-                <ul>
-                    <li>C++, C</li>
-                    <li>HTML, CSS</li>
-                    <li>Javascript</li>
-                    <li>SFML</li>
-                </ul>
-            </td>   
-
-            <td class="rightcolumn">
-                <h3>&nbsp&nbsp&nbsp&nbspSoft skills:</h3>
-        
-                <ul>
-                    <li>Good communication skills</li>
-                    <li>Positive attitude</li>
-                    <li>Fast learner and logical thinking</li>
-                    <li>Ambitious and hard worker</li>
-                </ul>
-
-            </td>
-
-        </table>
-
-        
-
-        <h3>Studies:</h3>
-
-        <ul>
-            <li>google-site-verification=4mtgQvrUVULkR3j5Gge5UT8LN4TnEkGxRCdA6hMEH0g</li>
-            <li>University - <strong><a href="https://www.info.uaic.ro/en/home-page-2/" class="textLink">Facultatea de Informatica</a></strong>, <strong><a href="https://www.uaic.ro/en/" class="textLink">UAIC</a></strong>.(ongoing)</li>
-            <li>Accredited course for <strong>web developing</strong>.(ongoing)</li>
-            <li>High school - <strong><a href="https://cemk-focsani.coresi20.ro/" class="textLink">Colegiul Economic Mihail Kogalniceanu Focsani</a></strong>.</li>
-            <li>Middle school - <strong><a href="https://scoalastefancelmarefocsani.ro/" class="textLink">Scoala Gimnaziala "Stefan cel Mare" Focsani</a></strong>.</li>
-            <li>Elementary school - <strong><a href="https://scoalastefancelmarefocsani.ro/" class="textLink">Scoala Gimnaziala "Stefan cel Mare" Focsani</a></strong>.</li>
+        <ul class="nav-links">
+            <a href="./index.html"><li id="active">Acasa <i class="far fa-user"></i></li></a>
+            <a href="./despre.html"><li>Despre noi <i class="far fa-address-card"></i></li></a>
+            <a href="./tarife.html"><li>Tarife <i class="fas fa-dollar-sign"></i></li></a> 
+            <a href="./galerie.html"><li>Galerie <i class="fas fa-image"></i></li></a> 
+            <a href="./contact.html"><li>Contact <i class="far fa-envelope"></i></li></a>
         </ul>
+      </div>
+      
+        <section class="header">
+            <div class="container-header">
+              <h1>Tractari Non-Stop Focsani</h1>
+              <h2>Tel : 0774450052</h2>
+              <a href="tel:0774450052" class="glassmorphism glassmorphism-tilt-effect">Sunati chiar acum!</a>
+      </section>
+      
+      <section class="subheader">
+        <div class="container-subheader-1">
+          <h1>Serviciu de urgenta 24/7</h1>
+          <h3>Suntem disponibili pentru dvs. non-stop!</h3>
+          <h3>Suna-ne.</h3>
+        </div>
+        <div class="container-subheader-2">
+          <img src="./assets/mobile.svg" alt="">
+          <a href="tel:0774450052"><i class="fas fa-phone"></i>0774450052</a>
+        </div>
+        <div class="container-subheader-3">
+          <h1>Sunati acum!</h1>
+          <h3>Lasa-ne sa te sfatuim si sa te ajutam</h3>
+        </div>
+      </section>
 
-        <hr>
+      <section class="tarife">
+        <div class="tarife-title">
+          <h1>Lista <span class="tilt_back">de preturi</span></h1>
+        </div>
+          <div class="tarifeCards">
+            <div class="container-1-tarife container-tarife glassmorphism glassmorphism-glare-effect">
+              <div class="container-title-left-card"><i class="fas fa-award"></i><h1>Tractari intre :</h1></div>
+              <div class="container-content-1 container-content">
+                <h2>800 kg - 1000 kg</h2><hr>
+                <h2>1000 kg - 1500 kg</h2><hr>
+                <h2>1500 kg - 2000 kg</h2><hr>
+                <h2>peste 2000 kg</h2><hr>
+              </div>  
+            </div>
+            <div class="container-2-tarife container-tarife glassmorphism glassmorphism-glare-effect">
+              <div class="container-title"><i class="fas fa-hand-holding-usd"></i><h1>Preturi in localitate</h1></div>
+              <div class="container-content-2 container-content">
+                <h2>50 RON</h2><hr>
+                <h2>70 RON</h2><hr>
+                <h2>80 RON</h2><hr>
+                <h2>100 RON</h2><hr>
+              </div>
 
-        <strong><a href="./contact.html" style="margin-left: 10.60%;" class="buttonLink">Contact</a></strong>
-        <strong><a href="./projects.html" style="margin-left: 0.25%;" class="buttonLink">Projects</a></strong>
+            </div>
+            <div class="container-3-tarife container-tarife glassmorphism glassmorphism-glare-effect">
+              <div class="container-title"><i class="fas fa-hand-holding-usd"></i><h1>Preturi in toata tara</h1></div>
+              <div class="container-content-3 container-content">
+                <h2>1,2 RON per km</h2><hr>
+                <h2>1,5 RON per km</h2><hr>
+                <h2>2,0 RON per km</h2><hr>
+                <h2>2,2 RON per km</h2><hr>
+              </div>
+            </div>
+          </div>
+          <div class="tarifeCards-2">
+            <div class="container-4-tarife container-tarife glassmorphism glassmorphism-glare-effect">
+              <div class="container-title"><i class="fas fa-hand-holding-usd"></i><h1>Preturi asistenta rutiera</h1></div>
+              <div class="container-content-4 container-content">
+                <h2>Curent baterie - 30 RON</h2><hr>
+                <h2>Schimb roata - 45 RON</h2><hr>
+                <h2>Vulcanizare roata - 50 RON + pretul vulcanizarii</h2><hr>
+                <h2>Alte reparatii - 30 RON + plata extra/ora</h2><hr>
+              </div>
 
+            </div>
+            <div class="container-5-tarife container-tarife glassmorphism glassmorphism-glare-effect">
+              <div class="container-title"><i class="fas fa-hand-holding-usd"></i><h1>Tarif de stationare</h1></div>
+              <div class="container-content-5 container-content">
+                <h2>600-800</h2><hr>
+                <h2>600-800</h2><hr>
+                <h2>600-800</h2><hr>
+                <h2>600-800</h2><hr>
+              </div>
+            </div>
+          </div>
+      </section>
+      
+      <section class="middle-section">
+        <div class="title-middle-section"><h1>Serviciile noastre de tractari din Focsani</h1>&nbsp&nbsp<h1 class="second-title-middle-section"> stau intotdeauna &nbsp <span class="tilt_back"> la dispozitia ta!</span></h1></div>
+        <div class="content-middle-section-flex">
+          <div class="content-middle-section-1">In cazul in care vehiculul dumneavoastra se strica sau are un accident in zona Vrancea, noi venim la tine in cel mai scurt timp posibil. Primul lucru pe care il facem este sa verificam micile defectiuni pentru ca dumneavoastra sa puteti pleca in singuranta la volanul automobilului.  Reparatiile mai mici pot fi gestionate de serviciul nostru de avarie din Focsani. In cazul unor avarii majore,  va vom remorca masina la un atelier specializat din apropiere, la alegerea dumneavoastra.</div>
+          <div class="content-middle-section-2">Indiferent daca este vorba despre o mașina, o motocicleta, o duba sau un camion, ne vom asigura ca autovehiculul dumneavoastra are parte de  cele mai bune servicii. Ne puteti apela oricand iar noi va vom sfatui in avans si vom discuta despre pasii urmatori. Asteptam cu nerabdare sa va oferim ajutorul nostru! </div>
+        </div>
+      </section>
+      <section class="section-cards">
+        <div class="card card1 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Servicii de tractare non-stop</h1><img src="./assets/time.svg" alt=""></div>
+          <div class="card-content"><h3>Suntem aici pentru tine 365 de zile pe an. Iti oferim servicii de tractare, recuperare si remorcare in Vrancea si in apropiere!</h3></div>
+        </div>
+        <div class="card card2 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Siguranta ta!</h1><img src="./assets/security.svg" alt=""></div>
+          <div class="card-content"><h3>Masina ta este pe maini bune cu noi. Daca apar daune neasteptate atunci cand masina este  tractata, acestea sunt acoperite de o asigurare de remorcare.</h3></div>
+        </div>
+        <div class="card card3 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Metode de Plata</h1><img src="./assets/payment.svg" alt=""></div>
+          <div class="card-content"><h3>Fata de alte servicii de tractari, noi iti oferim posibilitatea platii cu cardul. Accepetam carduri de debit (Mastercard Visa etc), noi avand tot timpul un POS la indemana.</h3></div>
+        </div>
+        <div class="card card4 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Social Media</h1><img src="./assets/social_media.svg" alt=""></div>
+          <div class="card-content"><h3>
+            Ai auzit despre afacerea noastra  si vrei sa afli mai multe detalii despre activitatea noastra?Te asteptam si pe pagina noastra de  Facebook sa te convingi de eficienta serviciilor noastre.</h3></div>
+        </div>
+        <div class="card card5 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Ce Tipuri de Autovehicule Tractam Noi?</h1><img src="./assets/vehicles.svg" alt=""></div>
+          <div class="card-content"><h3>
+            In caz de avarii, noi asiguram transportul  autovehiculelor de pana in 4 tone dar si a motociletelor si mopedelor.</h3></div>
+        </div>
+        <div class="card card6 glassmorphism glassmorphism-tilt-effect">
+          <div class="card-title"><h1>Transportul Vehiculului</h1><img src="./assets/tow.svg" alt=""></div>
+          <div class="card-content"><h3>Noi iti asiguram transportul de retur ieftin si  rapid. Avem grija ca tu  sa ajungi in cel mai scurt timp acasa alaturi de masina ta, oferind spatiu pentru inca 2 persoane în timpul transportului</h3></div>
+        </div>
+      </section>
+
+      <section class="section-orase">
+          <div class="content-orase">
+            <h1>Serviciile  noastre de tractari, transport si remediere defectiuni auto  va stau la dispozitie</h1>
+            <h3>Iata o mica selectie a oraselor in care serviciul nostru de tractare  este  frecvent solicitat. Trebuie doar sa ne sunati si ne vom indrepta imediat catre  dumneavoastra:</h3>
+            <ul class="glassmorphism glassmorphism-tilt-effect horizontal">
+              <ul>
+                <li>Adjud</li>
+                <li>Buzau</li>
+                <li>Campineanca</li>
+                <li>Cotesti</li>
+                <li>Dumbraveni</li>
+                <li>Focsani</li>
+                <li>Golesti</li>
+                <li>Gologanu</li>
+                <li>Jorasti</li>
+                <li>Lepsa</li>
+              </ul>
+              <ul>
+                <ul class="fix">
+                  <li>Marasesti</li>
+                  <li>Mera</li>
+                  <li>Milcovul</li>
+                  <li>Mircesti</li>
+                  <li>Nanesti</li>
+                </ul>
+                <ul>
+                  <li>Obrejita</li>
+                  <li>Odobesti</li>
+                  <li>Panciu</li>
+                  <li>Petresti</li>
+                  <li>Ramnicul Sarat</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Rastoaca</li>
+                <li>Soveja</li>
+                <li>Suraia</li>
+                <li>Tisita</li>
+                <li>Tulnici</li>
+                <li>Urechesti</li>
+                <li>Vanatori</li>
+                <li>Vidra</li>
+                <li>Vizantea-Livezi</li>
+                <li>Vulturu</li>
+              </ul>
+            </ul>
+            <h3>Orasul dumneavoastra nu este  listat?</h3>
+            <h3>Stati fara grija, putem ajunge acolo! Aria noastra de acoperire cuprinde o regiune mare din Estul Romaniei</h3>
+          </div>
+          <div class="photo-orase">
+            <img src="./assets/map.svg" alt="">
+          </div>
+      </section>
+
+      <section class="footer-big">
+          <div class="contact-f">
+            <h1>Tractari Non-Stop Foscani</h1>
+
+            <h2>Locatie :</h2>
+            <h3>Vrancea ,Focsani,Bd-ul Unirii nr 7</h3>
+
+            <h2>Ne puteti gasi si pe : </h2>
+            <div class="social-media">
+              <ul>
+                <li><a href="https://www.facebook.com/mihai.ciobotaru.52"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/mihai_024_/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:mihai2096@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:0774450052"><i class="fas fa-phone"></i></a></li>
+              </ul>
+             
+            </div>
+          </div>
+          <ul class="footer-links">
+            <a href="./index.html"><li id="active">Acasa <i class="far fa-user"></i></li></a>
+            <a href="./despre.html"><li>Despre noi <i class="far fa-address-card"></i></li></a>
+            <a href="./tarife.html"><li>Tarife <i class="fas fa-dollar-sign"></i></li></a> 
+            <a href="./galerie.html"><li>Galerie <i class="fas fa-image"></i></li></a> 
+            <a href="./contact.html"><li>Contact <i class="far fa-envelope"></i></li></a>
+        </ul>
+      </section>
+
+      <section class="footer">
+        <div class="text-1">Realizat cu &nbsp❤️ &nbsp si &nbsp ☕ &nbsp de Mihai Ciobotaru si Georgian Grigore</div>
+        <div class="text-2">Copyright 2021 @ Tractari Non-Stop Focsani</div>
+      </section>
+
+      <div class="phone"><a href="tel:0774450052"><i class="fas fa-phone"></i><h1>Sunati acum</h1></a></div>
+      <script src="./js/script.js"></script>  
+      <script src="./js/vanilla-tilt.js"></script>  
     </body>
 </html>

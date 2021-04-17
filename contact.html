@@ -2,32 +2,120 @@
 <html>
     <head>
 
-        <title>Contact</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="shortcut icon" href="./images/icon.png" type="image/png">
-        <meta name="description" content="Mihai Ciobotaru">
-
+      <title>Tractari 24/7</title>
+      <link rel="stylesheet" href="./css/style_general.css">
+      <link rel="stylesheet" href="./css/style_contact.css">
+      <link rel="shortcut icon" href="./assets/icon.png" type="image/png">
+      <meta name="description" content="Mihai Ciobotaru">
+      <script src="https://kit.fontawesome.com/4b1edc8b32.js" crossorigin="anonymous"></script>
+    
     </head>
 
     <body>
-        <h2>Contact me </h2>
-        <p>Number(Romania) : 0774450052</p>
-        <p>Location : Focsani/Iasi</p>
-        <p>E-mail : mihai2096@gmail.com</p>
+      <div class ="nav">
+        <div class="logo">
+          <img src="./assets/helloillustration.svg" alt="">
+          <a href="https://mihai2096.github.io/Personal-website/" target="_blank"><h1> <span>T</span>ractari <span>N</span>on-<span>S</span>top <span>F</span>ocsani</a>
+        </div>
+        <div class="togglerBtn"><div class="toggler"></div></div>
 
-        <hr class="contact">
+        <ul class="nav-links">
+            <a href="./index.html"><li>Acasa <i class="far fa-user"></i></li></a>
+            <a href="./despre.html"><li>Despre noi <i class="far fa-address-card"></i></li></a>
+            <a href="./tarife.html"><li>Tarife <i class="fas fa-dollar-sign"></i></li></a> 
+            <a href="./galerie.html"><li>Galerie <i class="fas fa-image"></i></li></a> 
+            <a href="./contact.html"><li id="active">Contact <i class="far fa-envelope"></i></li></a>
+        </ul>
+      </div>
 
-        <form action="mailto:mihai2096@gmail.com" method="post" enctype="text/plain">
-            <label for="yourName">Name : </label>
-            <input type="text"><br>
-            <label for="yourEmail">E-mail : </label>
-            <input type="email"><br><br>
-            <label for="yourMessage">Your message : </label><br>
-            <textarea name="message" id="" cols="30" rows="10"></textarea><br>
-            <input type="submit" name="" value="Trimite">
+      <div class="contact-wrap">
+        <div class="contact-in">
+          <h1>Informatii de Contact</h1>
+          <h2><i class="fa fa-phone" aria-hidden="true"></i>Numar telefon</h2>
+          <p>0774450052</p>
+          <h2><i class="fa fa-envelope" aria-hidden="true"></i>Email</h2>
+          <p>info@democompany.com</p>
+          <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Adresa</h2>
+          <p>Focsani,Vrancea,Romania</p>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="contact-in">
+          <section>
+            <div class="container-form">
+              <h1>Lasati-ne un mesaj </h1>
+              <form action="https://formspree.io/f/xeqvqwzw" method="POST" id="my-form">
+                
+                <div class="form-group">
+                  <label for="firstName">Nume</label>
+                  <input type="text" id="firstName" name="firstName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="latsName">Prenume</label>
+                  <input type="text" id="lastName" name="lastName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+          
+                <div class="form-group">
+                  <label for="massage">Mesaj</label>
+                  <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+          
+                <button type="submit">Trimite</button>
+              </form>
+            </div>
+            <div id="status"></div>
+          </section>
+        </div>
+        <div class="contact-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44582.244079847405!2d27.15590409932327!3d45.70320725061361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b418a3872196a3%3A0x78a9ff91284d232!2zRm9jyJlhbmk!5e0!3m2!1sen!2sro!4v1618426691929!5m2!1sen!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
 
-            <hr class="contact">
-        </form>
-        <strong><a href="./index.html" style="margin-left: 5.35%;" class="buttonLink">Main Page</a></strong>
+      <section class="footer-big">
+        <div class="contact-f">
+          <h1>Tractari Non-Stop Foscani</h1>
+
+          <h2>Locatie :</h2>
+          <h3>Vrancea ,Focsani,Bd-ul Unirii nr 7</h3>
+
+          <h2>Ne puteti gasi si pe : </h2>
+          <div class="social-media">
+            <ul>
+              <li><a href="https://www.facebook.com/mihai.ciobotaru.52"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/mihai_024_/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="mailto:mihai2096@gmail.com"><i class="fas fa-envelope"></i></a></li>
+              <li><a href="tel:0774450052"><i class="fas fa-phone"></i></a></li>
+            </ul>
+           
+          </div>
+        </div>
+        <ul class="footer-links">
+          <a href="./index.html"><li>Acasa <i class="far fa-user"></i></li></a>
+          <a href="./despre.html"><li>Despre noi <i class="far fa-address-card"></i></li></a>
+          <a href="./tarife.html"><li>Tarife <i class="fas fa-dollar-sign"></i></li></a> 
+          <a href="./galerie.html"><li>Galerie <i class="fas fa-image"></i></li></a> 
+          <a href="./contact.html"><li id="active">Contact <i class="far fa-envelope"></i></li></a>
+      </ul>
+    </section>
+
+    <section class="footer">
+      <div class="text-1">Realizat cu &nbsp❤️ &nbsp si &nbsp ☕ &nbsp de Mihai Ciobotaru si Georgian Grigore</div>
+      <div class="text-2">Copyright 2021 @ Tractari Non-Stop Focsani</div>
+    </section>
+
+    <div class="phone"><a href="tel:0774450052"><i class="fas fa-phone"></i><h1>Sunati acum</h1></a></div>
+
+      <script src="./js/script.js"></script>  
+      <script src="./js/vanilla-tilt.js"></script>  
     </body>
 </html>
