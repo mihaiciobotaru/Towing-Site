@@ -299,7 +299,7 @@ a{
   }
  }
 
-@media (min-width: 396px) and (max-width: 755px) { 
+@media (min-width: 396px) and (max-width: 955px) { 
   html{
     overflow-x: hidden;
   }
@@ -317,7 +317,7 @@ a{
   }
   ul.nav-links.open{
     position: fixed;
-    transform: translateX(-6.8%) translateY(44.7%);
+    transform: translateX(-6.8%) translateY(44.2%);
     transition: 1s ease-in-out;
   }
   .nav-links.open li{
@@ -331,8 +331,8 @@ a{
 
   .nav ul{
     position: fixed;
-    height: 100%;
-    width: 100%;
+    height: 102%;
+    width: 103%;
     background-color: #1a1c20df;
     backdrop-filter: blur(5px);
     z-index: 20;
@@ -355,13 +355,19 @@ a{
     transform: translateY(-20px);
     height: 5px;
   }
+  .togglerBtn{
+    right: 0;
+    position: fixed;
+    z-index: 40;
+  }
   .toggler{
+    position: fixed;
     z-index: 40;
     display: initial;
   }
  }
 
-@media (min-width: 756px) and (max-width: 905px) { 
+@media (min-width: 956px) and (max-width: 905px) { 
   .logo{
     margin-left: -8px;
   }
