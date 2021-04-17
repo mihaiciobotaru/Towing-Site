@@ -299,9 +299,12 @@ a{
   }
  }
 
-@media (min-width: 396px) and (max-width: 955px) { 
+@media (min-width: 396px) and (max-width: 1090px) { 
   html{
     overflow-x: hidden;
+  }
+  .logo{
+    margin-left: 25vw;
   }
   .logo h1{
     margin-top: 10px;
@@ -332,7 +335,7 @@ a{
   .nav ul{
     position: fixed;
     height: 102%;
-    width: 103%;
+    width: 105%;
     background-color: #1a1c20df;
     backdrop-filter: blur(5px);
     z-index: 20;
@@ -366,8 +369,8 @@ a{
     display: initial;
   }
  }
-
-@media (min-width: 956px) and (max-width: 905px) { 
+/*
+@media (min-width: px) and (max-width: 905px) { 
   .logo{
     margin-left: -8px;
   }
@@ -387,8 +390,8 @@ a{
     margin: 0 10px 0 10px;;
   }
   
- }
-
+ }*/
+/*
 @media (min-width: 906px) and (max-width: 1090px) { 
   .logo{
     margin-left: -8px;
@@ -409,7 +412,7 @@ a{
     margin: 0 10px 0 10px;;
   }
  }
-
+*/
 @media (min-width:1091px) and (max-width: 1400px) { 
   .logo{
     margin-left: 3px;
