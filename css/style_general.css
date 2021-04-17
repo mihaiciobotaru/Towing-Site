@@ -12,6 +12,10 @@
 /* OTHER CLASSES  */
 /* ______________ */
 
+html,body{
+  overflow-x: hidden;
+}
+
 .tilt_back{
   position: relative;
   z-index: 9;
