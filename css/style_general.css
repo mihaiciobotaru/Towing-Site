@@ -88,7 +88,6 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  overflow-x: hidden;
 }
 
 .logo{
@@ -320,6 +319,7 @@ a{
     overflow:hidden;
   }
   ul.nav-links.open{
+    display: flex;
     position: fixed;
     transform: translateX(-6.8%) translateY(44.2%);
     transition: 1s ease-in-out;
@@ -342,7 +342,7 @@ a{
     z-index: 20;
     position: absolute;
     transform: translateY(53%);
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
