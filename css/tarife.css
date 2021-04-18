@@ -10,7 +10,7 @@
   position: relative;
   content: '';
   width: 100%;
-  height: 88vh;
+  height: 1200px;
   display: block;
   grid-column-gap: 35px ;
   background-color: var(--primary-white);
@@ -22,12 +22,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-}
-.tarife-title hr{
-  border-top: 2px #8c8b8b;
-  border-radius: 30px;
-  border-style:ridge;
-  width: 35%;
+  margin: 50px 0 50px 0;
 }
 
 .tarife-title h1{
@@ -44,9 +39,37 @@
   align-items: center;
 }
 
+
+.tarife hr{
+  border: 0px;
+  height: 1px;
+  transform: scaleY(2);
+  background:radial-gradient(#31383999,#31383977,#31383933);
+}
+
 .container-1-t img{
   width: 600px;
 }
+
+.tarifeCards hr{
+  width: 100%;
+}
+
+.tarifeCards-2 hr{
+  width: 70%;
+}
+
+.container-content-1 hr{
+  background:radial-gradient(#ffffff,#bbbbbb77,#bbbbbb33);
+}
+
+.container-content-1 {
+  box-sizing: border-box;
+  border-top: 1px solid #00000033;
+  border-right: 3px solid #00000033;
+}
+
+
 
 .tarifeCards{
     position: relative;
@@ -54,13 +77,13 @@
     width: 100%;
     height: 45vh;
     display: grid;
-    grid-template-columns: 1.3fr 1fr 1fr ;
+    grid-template-columns: 1.5fr 1fr 1fr ;
     grid-template-areas: 
         "container-1-tarife container-2-tarife container-3-tarife";
     grid-column-gap:0px ;
     grid-row-gap: 30px;
     background-color: var(--primary-white);
-    padding: 25px 350px 10px 350px;
+    padding: 25px 500px 10px 501px;
   }
   
   .tarifeCards-2{
@@ -75,7 +98,7 @@
     grid-column-gap:50px ;
     grid-row-gap: 30px;
     background-color: var(--primary-white);
-    padding: 25px 490px 50px 490px;
+    padding: 25px 620px 50px 620px;
   }
   .container-tarife{
     background-color: #3a667f;
@@ -135,6 +158,7 @@
     margin-left: 10px;
   }
   
+
   .container-content{
     margin-top: -20px;
     z-index: 10;
@@ -148,7 +172,6 @@
   
   .container-content-1{
     grid-area: container-1-tarife;
-    background-color: #ffe94c;
   }
   
   .container-content-2{
@@ -184,29 +207,10 @@
     margin: 0 8px 0 8px;
   }
   
-  .container-content h2::after{
-    content: '';
-    position: absolute;
-    background-color:var(--primary-blue-dark) ;
-    background: radial-gradient(#2f485880,#2f485866,#2f485822,#2f485809,#00000000 );
-    width: 300px;
-    height: 3px;
-    border-radius: 300px;
-    transform: translateY(1400%) translateX(-64%);
-  }
-  
-  
-  .container-content-1 h2::after{
-    transform: translateY(1400%) translateX(-78%);
-  }
-  
-  .container-content-4 h2::after{
-    transform: translateY(1400%) translateX(-80%);
-  }
   
   .container-content-1{
     border-top-right-radius: 0px;
-    background-color:#ffe94c ;
+    background-color: #3a667f;
   }
   .container-content-2{
     border-top-left-radius: 0px;
@@ -219,21 +223,29 @@
   
   .container-1-tarife{
     border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
   }
   
   .container-2-tarife{
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    
   }
   
   .container-3-tarife{
     border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    
   }
-  
   
   .container-2-tarife,.container-3-tarife{
     border:0px;
   }
   .container-2-tarife,.container-3-tarife{
     box-shadow:30px 20px 50px #31383999;
+  }
+  .container-content-1 h2{
+    color: var(--primary-white);
   }

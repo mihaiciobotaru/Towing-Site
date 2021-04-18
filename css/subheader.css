@@ -20,12 +20,6 @@
     background-color: #fab832;
     text-align: center;
   }
-  .subheader h1{
-    font-size: 40px;
-  }
-  .subheader h3{
-    font-size: 20px;
-  }
   .container-subheader-1{
     display: flex;
     align-items: center;
@@ -169,10 +163,10 @@
 
     }
     .subheader h1{
-      font-size: 31px;
+      font-size: 41px;
     }
     .subheader h3{
-      font-size: 18px;
+      font-size: 21px;
     }
     .container-subheader-1,.container-subheader-3{
         margin-top: -50px;
