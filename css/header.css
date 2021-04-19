@@ -54,7 +54,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--primary-black);
     margin-bottom: 50px;
-    margin-top: 40px;
+    margin-top: calc(40px - 10vh);
     font-family: 'Poppins', sans-serif; 
   }
   .container-header h2{
