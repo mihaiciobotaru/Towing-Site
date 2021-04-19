@@ -9,10 +9,10 @@
   position: relative;
   content: '';
   width: 100%;
-  height: 1000px;
+  height: 1100px;
   display: grid;
-  grid-template-columns: 400px 400px  400px  ;
-  grid-template-rows: minmax(30px, 400px ) minmax(390px, 400px ) ;
+  grid-template-columns: 400px 400px 400px  ;
+  grid-template-rows: 400px 400px ;
   grid-template-areas: 
     "card-1 card-2 card-3"
     "card-4 card-5 card-6";
@@ -21,10 +21,12 @@
   padding-left: auto;
   grid-column-gap: 70px;
   grid-row-gap:60px;
-  padding-top: 70px;
+  align-items: center;
+  place-content: center;
 }
 
 .card{
+  height: 400px;
   border-radius: 48px;
   background-image: linear-gradient(135deg, #ff503cde, #ff5b3bde, #ff653bde, #ff6e3bde, #ff773cde);  
   display: flex;
@@ -101,7 +103,7 @@
 
 @media (min-width:736px) and (max-width: 810px) {  
   .section-cards{
-    height: 1350px;
+    height: 1550px;
     grid-column-gap: 30px;
     grid-row-gap:40px;
     grid-template-columns: 300px 300px ;  
@@ -110,7 +112,6 @@
       "card-1 card-2"
       "card-3 card-4"
       "card-5 card-6";
-    padding-top: 40px;
   }
   
   .card{
@@ -137,32 +138,30 @@
 
 @media (min-width:811px) and (max-width: 925px) {  
   .section-cards{
-    height: 1500px;
+    height: 1600px;
     grid-column-gap: 30px;
-    grid-row-gap:40px;
+    grid-row-gap:0px;
     grid-template-columns: 360px 360px ;  
     grid-template-rows: 30% 30% 30% ;
     grid-template-areas: 
       "card-1 card-2"
       "card-3 card-4"
       "card-5 card-6";
-    padding-top: 40px;
   }
   
 }
 
 @media (min-width : 926px) and (max-width: 1095px) {  
   .section-cards{
-    height: 1500px;
+    height: 1600px;
     grid-column-gap: 50px;
-    grid-row-gap:60px;
+    grid-row-gap:0px;
     grid-template-columns: 400px 400px ;  
     grid-template-rows: 30% 30% 30% ;
     grid-template-areas: 
       "card-1 card-2"
       "card-3 card-4"
       "card-5 card-6";
-    padding-top: 40px;
   }
   
   .card{
@@ -192,7 +191,6 @@
     grid-template-areas: 
       "card-1 card-2 card-3"
       "card-4 card-5 card-6";
-    padding-top: 100px;
   }
   
   .card{

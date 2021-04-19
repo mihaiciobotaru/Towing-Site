@@ -282,28 +282,12 @@ a{
 	}
 }
 
-@media  (max-width: 395px) { 
-  .nav ul{
-    display: none;
-  }
-  .toggler{
-    display: initial;
-  }
-  .logo{
-    margin-left: 15px;
-  }
-  .logo img{
-    margin-right: 4px;
-  }
- }
-
-@media (max-width:1400px){
-
-}
 
 
 
-@media (min-width: 396px) and (max-width: 1090px) { 
+
+
+@media (max-width: 1090px) { 
   html{
     overflow-x: hidden;
   }
@@ -365,6 +349,15 @@ a{
   .toggler{
     z-index: 40;
     display: initial;
+  }
+ }
+
+ @media (max-width:525px){
+  .logo{
+    margin-left: 12vw;
+  }
+  .logo img{
+    transform: scale(0.8);
   }
  }
 /*
