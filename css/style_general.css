@@ -513,24 +513,24 @@ a{
 
 .social-media i{
   color: var(--primary-white);
-  transform: scale(2);
+  transform: scale(1.6);
   border-radius: 30px;
   border: solid #00000099 1px;
   background-color:var(--primary-orange);
   color: var(--primary-white);
   padding: 8px;
-  margin: 0 15px 0 15px;
+  margin: -10px 15px 0px 15px;
   transition: 0.2s ease-in-out;
 }
 
 .social-media i:hover{
   background-color:var(--primary-white);
-  transform: scale(2.1);
+  transform: scale(1.8);
 }
 
 .social-media ul{
   position: absolute;
-  margin: 0 -210px;
+  margin: 0 -190px;
   padding: 0;
   display: flex;
 }
@@ -539,11 +539,11 @@ a{
 }
 .social-media ul li a{
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   display: block;
   text-align: center;
-  margin :0 20px;
+  margin :10px 20px;
   border-radius: 50%;
   padding: 6px;
   box-shadow: 0 10px 15px #00000055;

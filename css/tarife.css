@@ -8,244 +8,99 @@
 
 .tarife{
   position: relative;
-  content: '';
   width: 100%;
-  height: 1200px;
-  display: block;
-  grid-column-gap: 35px ;
-  background-color: var(--primary-white);
-  margin: 30px 0 120px 0;
+  height: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.tarife-title{
-  margin-top: 0px;
+
+
+.tarife-title h1,.tarife-title span{
+  font-size: 60px;
+}
+
+.tarife-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.tarife-content h1{
+  color: var(--primary-blue-dark);
+}
+
+.tarife-content hr{
+  margin: 3px;
+  border: 0px;
+  background: radial-gradient(#000,#666,#ccc,#fff);
+  height: 2px;
+  width: 450px;
+}
+.tarife-content h1{
+  text-align: center;
+  font-size: 35px;
+}
+
+.tarife-subcontent{
+  margin: 50px 0px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 50px 0 50px 0;
 }
 
-.tarife-title h1{
-  font-size: 65px ;
-  text-align: center;
-  color: #2f4858;
-  font-family: 'Poppins', sans-serif; 
-}
-
-.container-1-t{
+.tarife-card{
+  margin: 0px 20px;
+  height: 400px;
+  width: 250px;
+  background-color: #ddd;
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;  
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-
-.tarife hr{
-  border: 0px;
-  height: 1px;
-  transform: scaleY(2);
-  background:radial-gradient(#31383999,#31383977,#31383933);
-}
-
-.container-1-t img{
-  width: 600px;
-}
-
-.tarifeCards hr{
+.tarife-card-title{
+  text-align: center;
   width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10px;
+  flex: 10%;
+  border-radius: 30px;
 }
 
-.tarifeCards-2 hr{
-  width: 70%;
+.tarife-card-title hr{
+  width: 50px;
+  height: 4px;
+  background: none;
+  background-color: #333;
 }
 
-.container-content-1 hr{
-  background:radial-gradient(#ffffff,#bbbbbb77,#bbbbbb33);
+.tarife-card-content{
+  margin-top: 10px;
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
 }
 
-.container-content-1 {
-  box-sizing: border-box;
-  border-top: 1px solid #00000033;
-  border-right: 3px solid #00000033;
+.tarife-card-content hr{
+  width: 90%;
+  height: 2px;
+  background: none;
+  background-color: #333;
+  border-radius: 30px;
 }
-
-
-
-.tarifeCards{
-    position: relative;
-    content: '';
-    width: 100%;
-    height: 45vh;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr ;
-    grid-template-areas: 
-        "container-1-tarife container-2-tarife container-3-tarife";
-    grid-column-gap:0px ;
-    grid-row-gap: 30px;
-    background-color: var(--primary-white);
-    padding: 25px 500px 10px 501px;
-  }
-  
-  .tarifeCards-2{
-    position: relative;
-    content: '';
-    width: 100%;
-    height: 45vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr  ;
-    grid-template-areas: 
-        "container-4-tarife container-5-tarife";
-    grid-column-gap:50px ;
-    grid-row-gap: 30px;
-    background-color: var(--primary-white);
-    padding: 25px 620px 50px 620px;
-  }
-  .container-tarife{
-    background-color: #3a667f;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: 45px;
-  }
-  
-  .container-title-left-card{
-    color: var(--primary-white);
-    z-index: 0;
-    background-color: #2f4858;
-    background-color: #3a667f;
-    width: 100%;
-    height: 9.8vh;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0px 100px 20px 100px;
-  }
-  
-  .container-title{
-    color: var(--primary-white);
-    z-index: 0;
-    background-color: #2f4858;
-    background-color: #3a667f;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0px 40px 20px 40px;
-  }
-  
-  .container-title-left-card i{
-    transform: scale(2.4);
-    margin-bottom: 10px;
-  }
-  
-  .container-title-left-card h1{
-    font-size: 28px;
-    margin-left: 20px;
-  }
-  
-  .container-title i{
-    transform: scale(2.6);
-  }
-  
-  .container-title h1{
-    font-size: 20px;
-    margin-left: 10px;
-  }
-  
-
-  .container-content{
-    margin-top: -20px;
-    z-index: 10;
-    content: '';
-    width: 100%;
-    height: 86%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-  }
-  
-  
-  .container-content-1{
-    grid-area: container-1-tarife;
-  }
-  
-  .container-content-2{
-    grid-area: container-2-tarife;
-    background-color: #ffe94c;
-  }
-  
-  .container-content-3{
-    grid-area: container-3-tarife;
-    background-color: #ffe94c;
-  }
-  
-  .container-content-4{
-    grid-area: container-4-tarife;
-    background-color: #ffe94c;
-  }
-  
-  .container-content-5{
-    grid-area: container-5-tarife;
-    background-color: #ffe94c;
-  }
-  
-  .container-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .container-content h2{
-    color: var(--primary-black);
-    text-align: center;
-    margin: 0 8px 0 8px;
-  }
-  
-  
-  .container-content-1{
-    border-top-right-radius: 0px;
-    background-color: #3a667f;
-  }
-  .container-content-2{
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-  .container-content-3{
-    border-top-left-radius: 0px;
-    background-color:#ffe94c ;
-  }
-  
-  .container-1-tarife{
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-  }
-  
-  .container-2-tarife{
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    
-  }
-  
-  .container-3-tarife{
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    
-  }
-  
-  .container-2-tarife,.container-3-tarife{
-    border:0px;
-  }
-  .container-2-tarife,.container-3-tarife{
-    box-shadow:30px 20px 50px #31383999;
-  }
-  .container-content-1 h2{
-    color: var(--primary-white);
-  }
